@@ -1,0 +1,100 @@
+html, body {
+  font-family: "IBM Plex Sans", Roboto, Arial;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.25;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: var(--root-cl);
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: normal;
+  &.-big {
+    font-size: 100px;
+  }
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: normal;
+}
+
+.caption {
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: normal;
+}
+
+.label {
+  font-size: 12px;
+  line-height: 1.08;
+  letter-spacing: 0.15px;
+}
+
+.-normal {
+  font-weight: 400;
+}
+
+.-semibold {
+  font-weight: 600;
+}
+
+.-bold {
+  font-weight: 700;
+}
+
+.-fz13 {
+  font-size: 13px;
+}
+.-fz14 {
+  font-size: 14px;
+}
+.-fz15 {
+  font-size: 15px;
+}
+.-fz16 {
+  font-size: 16px;
+}
+.-fz20 {
+  font-size: 20px;
+}
+.-fz24 {
+  font-size: 24px;
+}
+.-ws-no {
+  white-space: nowrap;
+}
+
+.unselectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+

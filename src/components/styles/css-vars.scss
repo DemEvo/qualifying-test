@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:200,400,700&subset=cyrillic);
+@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap);
+
+root {
+  --font-family: "IBM Plex Sans";
+  --default-font-size:  16px;
+  --main-border-radius: 100px;
+  --secondary-border-radius: 10px;
+
+  --header-height: 70px;
+  --input-height: 48px;
+  --input-sm-height: 38px;
+  --input-xs-height: 24px;
+}
+

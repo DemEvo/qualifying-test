@@ -1,0 +1,76 @@
+@use "sass:math";
+
+//$spacer: 1rem !default;
+$spacer: 1rem !default;
+$rem: 16;
+$spacers: () !default;
+$spacers: map-merge(
+                (
+                        0: 0,
+                        1: ($spacer * .25),
+                        2: ($spacer * .5),
+                        3: $spacer,
+                        4: ($spacer * 1.5),
+                        5: ($spacer * 3),
+                        6: ($spacer * 5),
+                        7: ($spacer * 10),
+                        8: ($spacer * 20),
+                        10: (math.div($spacer, $rem) * 10),
+                        15: (math.div($spacer, $rem) * 15),
+                        20: (math.div($spacer, $rem) * 20),
+                        25: (math.div($spacer, $rem) * 25),
+                        30: (math.div($spacer, $rem) * 30),
+                        35: (math.div($spacer, $rem) * 35),
+                        40: (math.div($spacer, $rem) * 40),
+                        50: (math.div($spacer, $rem) * 50),
+                        60: (math.div($spacer, $rem) * 60),
+                        70: (math.div($spacer, $rem)* 70),
+                        75: (math.div($spacer, $rem) * 75),
+                        80: (math.div($spacer, $rem) * 80),
+                        90: (math.div($spacer, $rem) * 90),
+                        100: (math.div($spacer, $rem) * 100),
+                        125: (math.div($spacer, $rem) * 125),
+                        //15: ($spacer/$rem * 15),
+                        //20: ($spacer/$rem * 20),
+                        //25: ($spacer/$rem * 25),
+                        //30: ($spacer/$rem * 30),
+                        //35: ($spacer/$rem * 35),
+                        //40: ($spacer/$rem * 40),
+                        //50: ($spacer/$rem * 50),
+                        //60: ($spacer/$rem * 60),
+                        //70: ($spacer/$rem * 70),
+                        //75: ($spacer/$rem * 75),
+                        //80: ($spacer/$rem * 80),
+                        //90: ($spacer/$rem * 90),
+                        //100: ($spacer/$rem * 100),
+                        //125: ($spacer/$rem * 125),
+                ),
+                $spacers
+);
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 476px,
+        md: 768px,
+        lg: 992px,
+        xl: 1250px,
+        xxl: 2560px
+) !default;
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints);
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+        sm: 440px,
+        md: 720px,
+        lg: 960px,
+        xl: 1200px,
+        xxl: 2500px
+) !default;
+
+@include _assert-ascending($container-max-widths, "$container-max-widths");

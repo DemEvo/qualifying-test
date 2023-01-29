@@ -1,0 +1,44 @@
+* {
+    scrollbar-color: hsl(220, 20%, 60%) hsl(220, 20%, 40%);
+    scrollbar-width: thin;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar:horizontal {
+    height: 7px;
+}
+::-webkit-scrollbar:window-inactive,
+::-webkit-scrollbar:horizontal:window-inactive {
+    opacity: 0.1;
+    transition: 0.9s;
+}
+::-webkit-scrollbar-corner {
+    border-radius: 0px;
+    background: hsl(220, 20%, 80%);
+}
+::-webkit-scrollbar-button {
+    /*border-radius: 3px;*/
+    width: 8px;
+    height: 8px;
+    background: hsl(220, 20%, 60%);
+    /*box-shadow: inset 0 0 2px hsl(220, 40%, 30%), inset 0 0 4px hsl(220, 40%, 99%);*/
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: hsl(220, 20%, 40%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:  hsl(220, 20%, 70%);
+    /*box-shadow: inset 0 0 1px hsl(220, 40%, 40%);*/
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-button:hover {
+    background: hsl(220, 40%, 75%);
+}
