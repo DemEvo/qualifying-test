@@ -351,7 +351,7 @@ export default {
           indx: 10,
           state: 0,
           num: 11,
-          img: `src/assets/img/10.jpg`,
+          img: `src/assets/10.jpg`,
           qsholder: `Студенты колледжа, которые являются художниками, но не певцами, представлены:`,
           saans: [
             'a',
@@ -368,7 +368,7 @@ export default {
           indx: 11,
           state: 0,
           num: 12,
-          img: `src/assets/img/10.jpg`,
+          img: `src/assets/10.jpg`,
           qsholder: `Xудожники, которые не являются ни студентами колледжа, ни певцами, представлены:`,
           saans: [
             'b',
@@ -385,7 +385,7 @@ export default {
           indx: 12,
           state: 0,
           num: 13,
-          img: `src/assets/img/10.jpg`,
+          img: `src/assets/10.jpg`,
           qsholder: `Студенты колледжа, которые являются певцами, но не художниками, представлены:`,
           saans: [
             'a',
@@ -402,7 +402,7 @@ export default {
           indx: 13,
           state: 0,
           num: 14,
-          img: `src/assets/img/10.jpg`,
+          img: `src/assets/10.jpg`,
           qsholder: `Студенты колледжа, которые являются художниками, а также певцами, представлены:`,
           saans: [
             'c',
@@ -493,7 +493,7 @@ export default {
           indx: 18,
           state: 0,
           num: 19,
-          img: `src/assets/img/euroTech_Study__1_UP.png`,
+          img: `src/assets/euroTech_Study__1_UP.png`,
           qsholder: `Определите закономерность и выберите соответствующий вариант вместо «?».`,
           saans: [
             '14',
@@ -510,7 +510,7 @@ export default {
           indx: 19,
           state: 0,
           num: 20,
-          img: `src/assets/img/euroTech_Study__1_UP(1).png`,
+          img: `src/assets/euroTech_Study__1_UP_1.png`,
           qsholder: `Определите закономерность и выберите соответствующий вариант вместо «?».`,
           saans: [
             '17',
